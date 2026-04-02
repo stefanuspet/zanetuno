@@ -12,8 +12,9 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Zanetuno — Premium Indonesian Seafood Exporter",
-  description: "Export-grade tuna, shrimp, and seafood from Indonesia to global markets.",
+  title: "Zanetuno | Premium Indonesian Seafood Exporter",
+  description:
+    "Export-grade tuna, shrimp, and seafood from Indonesia to global markets.",
 };
 
 export default function RootLayout({
@@ -24,11 +25,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${jakarta.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-          <WhatsAppButton />
-        </body>
+        <Navbar />
+        <main className="flex-1">{children}</main>
+        <Footer />
+        <WhatsAppButton />
+      </body>
     </html>
   );
 }

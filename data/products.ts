@@ -12,7 +12,7 @@ export const products: Product[] = [
     packaging: "Vacuum sealed, styrofoam box with ice gel",
     description:
       "Premium Bluefin Tuna sourced from the pristine waters of Maluku and Papua. Available in sashimi-grade quality for the most discerning international buyers.",
-    image: "/images/products/bluefin-tuna.jpg",
+    image: "/images/products/bluefin-tuna.png",
   },
   {
     id: "2",
@@ -25,7 +25,7 @@ export const products: Product[] = [
     packaging: "Vacuum sealed, carton box",
     description:
       "Wild-caught Skipjack Tuna (Cakalang) from Indonesia's richest fishing waters. Versatile in form — ideal for food service, processing, and retail markets.",
-    image: "/images/products/skipjack-tuna.jpg",
+    image: "/images/products/skipjack-tuna.png",
   },
   {
     id: "3",
@@ -38,7 +38,7 @@ export const products: Product[] = [
     packaging: "IQF, vacuum sealed, carton box (1kg / 5kg / 10kg)",
     description:
       "Farm-raised and wild-caught Premium Shrimps from Indonesia's top aquaculture regions. Available in multiple sizes and processing forms to meet any market requirement.",
-    image: "/images/products/shrimp.jpg",
+    image: "/images/products/shrimp.png",
   },
   {
     id: "4",
