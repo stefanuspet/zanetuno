@@ -78,7 +78,9 @@ export default function Footer() {
               <li className="leading-relaxed">
                 Jl. Pangkalan Jati V no.24, Rt.11/Rw.05,
                 <br />
-                Cipinang Melayu, Jakarta Timur 13620
+                Cipinang Melayu, Jatiwaringin,
+                <br />
+                Jakarta Timur, Indonesia 13620
               </li>
             </ul>
 

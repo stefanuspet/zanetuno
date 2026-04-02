@@ -13,22 +13,26 @@ const usps: USP[] = [
   {
     icon: Award,
     headline: "Premium Quality",
-    description: "Sashimi-grade seafood sourced from Indonesia's richest fishing waters, processed under strict quality control.",
+    description:
+      "We implement strict quality control standards, from the point of catch/harvesting through to packaging and final shipment.",
   },
   {
     icon: Ship,
     headline: "Shipping Flexibility",
-    description: "Air freight for fresh/chilled products and sea freight for frozen bulk orders — we adapt to your needs.",
+    description:
+      "We cater to your needs by offering both fresh shipments (via air freight) and frozen options (via sea freight) to ensure optimal freshness.",
   },
   {
     icon: Leaf,
     headline: "Responsible Sourcing",
-    description: "Committed to sustainable fishing practices and environmentally responsible aquaculture.",
+    description:
+      "We collaborate with local fishermen and farmers who practice sustainable and ethical fishing methods.",
   },
   {
     icon: Package,
     headline: "Competitive MOQ",
-    description: "Start with a 1 kg sample before committing to bulk. No large minimum order required to begin.",
+    description:
+      "To ensure our quality meets your standards, we accept sample orders starting from 1 kg before proceeding to large-scale shipments.",
   },
 ];
 
@@ -50,7 +54,9 @@ export default function WhyUsPreview() {
             >
               <usp.icon className="w-8 h-8 text-teal" aria-hidden="true" />
               <h3 className="text-base font-bold text-navy">{usp.headline}</h3>
-              <p className="text-sm text-charcoal/70 leading-relaxed">{usp.description}</p>
+              <p className="text-sm text-charcoal/70 leading-relaxed">
+                {usp.description}
+              </p>
             </div>
           ))}
         </div>
