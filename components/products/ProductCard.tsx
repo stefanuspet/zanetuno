@@ -25,15 +25,21 @@ export default function ProductCard({ product }: ProductCardProps) {
         {/* Name & Origin */}
         <div>
           <h3 className="text-xl font-bold text-navy">{product.name}</h3>
-          <p className="text-sm text-charcoal/60 mt-1">Origin: {product.origin}</p>
+          <p className="text-sm text-charcoal/60 mt-1">
+            Origin: {product.origin}
+          </p>
         </div>
 
         {/* Description */}
-        <p className="text-sm text-charcoal/70 leading-relaxed">{product.description}</p>
+        <p className="text-sm text-charcoal/70 leading-relaxed">
+          {product.description}
+        </p>
 
         {/* Variants */}
         <div className="flex flex-col gap-1.5">
-          <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/40">Variants</p>
+          <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/40">
+            Variants
+          </p>
           <div className="flex flex-wrap gap-1.5">
             {product.variants.map((variant) => (
               <Badge key={variant} label={variant} variant="teal" />
@@ -43,7 +49,9 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         {/* Forms */}
         <div className="flex flex-col gap-1.5">
-          <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/40">Forms</p>
+          <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/40">
+            Forms
+          </p>
           <div className="flex flex-wrap gap-1.5">
             {product.forms.map((form) => (
               <Badge key={form} label={form} variant="default" />
@@ -53,7 +61,9 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         {/* Grading */}
         <div className="flex flex-col gap-1.5">
-          <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/40">Grading</p>
+          <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/40">
+            Grading
+          </p>
           <div className="flex flex-wrap gap-1.5">
             {product.grading.map((grade) => (
               <Badge key={grade} label={grade} variant="gold" />
@@ -63,12 +73,18 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         {/* Packaging */}
         <p className="text-xs text-charcoal/50 leading-relaxed">
-          <span className="font-semibold">Packaging:</span> {product.packaging}
+          <span className="font-semibold">Packaging Fresh:</span>{" "}
+          {product.packagingFresh}
         </p>
-
+        <p className="text-xs text-charcoal/50 leading-relaxed">
+          <span className="font-semibold">Packaging Frozen:</span>{" "}
+          {product.packagingFrozen}
+        </p>
         {/* CTA */}
         <div className="mt-auto pt-2 flex items-center justify-between">
-          <span className="text-sm font-medium text-charcoal/50 italic">Price on Request</span>
+          <span className="text-sm font-medium text-charcoal/50 italic">
+            Price on Request
+          </span>
           <Link
             href="/contact"
             className="inline-flex items-center px-5 py-2.5 bg-navy text-white text-sm font-medium rounded-md hover:bg-navy-light transition-colors duration-200"

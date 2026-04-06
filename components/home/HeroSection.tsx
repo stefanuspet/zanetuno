@@ -7,7 +7,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <Image
         src="/images/hero/hero-bg.png"
-        alt="Premium Indonesian seafood from the ocean"
+        alt="High-grade Indonesian seafood from the ocean"
         fill
         priority
         className="object-cover object-center"
@@ -22,11 +22,11 @@ export default function HeroSection() {
           Essence from Indonesian Sea
         </p>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-          Premium Indonesian Seafood <br className="hidden md:block" />
+          High-grade Indonesian Seafood <br className="hidden md:block" />
           for Global Markets
         </h1>
         <p className="text-white/75 text-base md:text-lg max-w-2xl">
-          We export sashimi-grade Bluefin Tuna, Skipjack Tuna, and Premium
+          We export sashimi-grade Bluefin Tuna, Skipjack Tuna, and High-grade
           Shrimps from Indonesia&apos;s finest waters — direct to importers and
           distributors worldwide.
         </p>

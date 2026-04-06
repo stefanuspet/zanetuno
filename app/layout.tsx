@@ -12,7 +12,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Zanetuno | Premium Indonesian Seafood Exporter",
+  title: "Zanetuno | High-grade Indonesian Seafood Exporter",
   description:
     "Export-grade tuna, shrimp, and seafood from Indonesia to global markets.",
 };

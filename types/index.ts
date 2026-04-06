@@ -6,7 +6,8 @@ export type Product = {
   variants: string[];
   forms: string[];
   grading: string[];
-  packaging: string;
+  packagingFresh: string;
+  packagingFrozen: string;
   description: string;
   image: string;
 };

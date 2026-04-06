@@ -27,8 +27,9 @@ export default function Footer() {
               />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed">
-              Essence from Indonesian Sea. Premium seafood exporter connecting
-              Indonesia&apos;s finest marine products to global markets.
+              Essence from Indonesian Sea. High-grade seafood exporter
+              connecting Indonesia&apos;s finest marine products to global
+              markets.
             </p>
           </div>
 
@@ -108,8 +109,22 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-10 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-white/40">
-          <p>© {new Date().getFullYear()} PT. Kalwaneira Terra Prospera. All rights reserved.</p>
-          <p>Brand: Zanetuno</p>
+          <p>
+            © {new Date().getFullYear()} PT. Kalwaneira Terra Prospera. All
+            rights reserved.
+          </p>
+
+          <p>
+            Website by{" "}
+            <a
+              href="https://stefra.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-white transition"
+            >
+              Stefra.id
+            </a>
+          </p>
         </div>
       </div>
     </footer>

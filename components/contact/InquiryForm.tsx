@@ -21,9 +21,9 @@ type InquiryFormValues = z.infer<typeof InquirySchema>;
 type FormState = "idle" | "loading" | "success" | "error";
 
 const productOptions = [
-  "Premium Bluefin Tuna",
+  "High-grade Bluefin Tuna",
   "Bluejack Tuna (Cakalang)",
-  "Premium Shrimps",
+  "High-grade Shrimps",
   "Additional Seafood (By Request)",
   "Multiple Products",
 ];
@@ -71,22 +71,43 @@ export default function InquiryForm() {
     return (
       <div className="flex flex-col items-center justify-center gap-4 py-16 text-center">
         <div className="w-14 h-14 rounded-full bg-teal-light flex items-center justify-center">
-          <svg className="w-7 h-7 text-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+          <svg
+            className="w-7 h-7 text-teal"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M5 13l4 4L19 7"
+            />
           </svg>
         </div>
         <h3 className="text-xl font-bold text-navy">Inquiry Sent!</h3>
         <p className="text-charcoal/70 text-sm max-w-sm">
-          Thank you for reaching out. Our export team will respond to your inquiry within 24–48 hours.
+          Thank you for reaching out. Our export team will respond to your
+          inquiry within 24–48 hours.
         </p>
       </div>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} noValidate className="flex flex-col gap-5">
+    <form
+      onSubmit={handleSubmit(onSubmit)}
+      noValidate
+      className="flex flex-col gap-5"
+    >
       {/* Honeypot — hidden from real users */}
-      <input type="text" {...register("honeypot")} className="hidden" tabIndex={-1} aria-hidden="true" />
+      <input
+        type="text"
+        {...register("honeypot")}
+        className="hidden"
+        tabIndex={-1}
+        aria-hidden="true"
+      />
 
       {/* Full Name */}
       <div>
@@ -97,16 +118,22 @@ export default function InquiryForm() {
           id="fullName"
           type="text"
           placeholder="John Smith"
-          className={cn(inputClass, errors.fullName && "border-red-400 focus:ring-red-200")}
+          className={cn(
+            inputClass,
+            errors.fullName && "border-red-400 focus:ring-red-200",
+          )}
           {...register("fullName")}
         />
-        {errors.fullName && <p className={errorClass}>{errors.fullName.message}</p>}
+        {errors.fullName && (
+          <p className={errorClass}>{errors.fullName.message}</p>
+        )}
       </div>
 
       {/* Company Name */}
       <div>
         <label htmlFor="companyName" className={labelClass}>
-          Company Name <span className="text-charcoal/40 font-normal">(optional)</span>
+          Company Name{" "}
+          <span className="text-charcoal/40 font-normal">(optional)</span>
         </label>
         <input
           id="companyName"
@@ -126,10 +153,15 @@ export default function InquiryForm() {
           id="country"
           type="text"
           placeholder="Japan"
-          className={cn(inputClass, errors.country && "border-red-400 focus:ring-red-200")}
+          className={cn(
+            inputClass,
+            errors.country && "border-red-400 focus:ring-red-200",
+          )}
           {...register("country")}
         />
-        {errors.country && <p className={errorClass}>{errors.country.message}</p>}
+        {errors.country && (
+          <p className={errorClass}>{errors.country.message}</p>
+        )}
       </div>
 
       {/* Product Interest */}
@@ -139,22 +171,32 @@ export default function InquiryForm() {
         </label>
         <select
           id="productInterest"
-          className={cn(inputClass, errors.productInterest && "border-red-400 focus:ring-red-200")}
+          className={cn(
+            inputClass,
+            errors.productInterest && "border-red-400 focus:ring-red-200",
+          )}
           defaultValue=""
           {...register("productInterest")}
         >
-          <option value="" disabled>Select a product...</option>
+          <option value="" disabled>
+            Select a product...
+          </option>
           {productOptions.map((opt) => (
-            <option key={opt} value={opt}>{opt}</option>
+            <option key={opt} value={opt}>
+              {opt}
+            </option>
           ))}
         </select>
-        {errors.productInterest && <p className={errorClass}>{errors.productInterest.message}</p>}
+        {errors.productInterest && (
+          <p className={errorClass}>{errors.productInterest.message}</p>
+        )}
       </div>
 
       {/* Estimated Quantity */}
       <div>
         <label htmlFor="estimatedQuantity" className={labelClass}>
-          Estimated Quantity <span className="text-charcoal/40 font-normal">(optional)</span>
+          Estimated Quantity{" "}
+          <span className="text-charcoal/40 font-normal">(optional)</span>
         </label>
         <input
           id="estimatedQuantity"
@@ -174,10 +216,16 @@ export default function InquiryForm() {
           id="message"
           rows={5}
           placeholder="Please describe your requirements, target market, or any specific questions..."
-          className={cn(inputClass, "resize-none", errors.message && "border-red-400 focus:ring-red-200")}
+          className={cn(
+            inputClass,
+            "resize-none",
+            errors.message && "border-red-400 focus:ring-red-200",
+          )}
           {...register("message")}
         />
-        {errors.message && <p className={errorClass}>{errors.message.message}</p>}
+        {errors.message && (
+          <p className={errorClass}>{errors.message.message}</p>
+        )}
       </div>
 
       {/* Error state */}

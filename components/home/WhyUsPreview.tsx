@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Award, Ship, Leaf, Package } from "lucide-react";
+import { Award, Ship, Leaf, Package, HeadphonesIcon } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import type { LucideIcon } from "lucide-react";
 
@@ -12,27 +12,27 @@ type USP = {
 const usps: USP[] = [
   {
     icon: Award,
-    headline: "Premium Quality",
+    headline: "High-grade Quality",
     description:
-      "We implement strict quality control standards, from the point of catch/harvesting through to packaging and final shipment.",
+      "We work only with suppliers who meet export-grade quality standards, and conduct verification at every stage — from sourcing and processing to packaging and shipment.",
   },
   {
     icon: Ship,
     headline: "Shipping Flexibility",
     description:
-      "We cater to your needs by offering both fresh shipments (via air freight) and frozen options (via sea freight) to ensure optimal freshness.",
+      "We offer both air freight for fresh/chilled products and sea freight for frozen bulk orders — with shipping terms flexible to your needs (EXW, FOB, CIF).",
   },
   {
     icon: Leaf,
     headline: "Responsible Sourcing",
     description:
-      "We collaborate with local fishermen and farmers who practice sustainable and ethical fishing methods.",
+      "We partner with local fishermen and aquaculture farmers across Indonesia who follow responsible fishing and harvesting practices.",
   },
   {
-    icon: Package,
-    headline: "Competitive MOQ",
+    icon: HeadphonesIcon,
+    headline: "Professional Services",
     description:
-      "To ensure our quality meets your standards, we accept sample orders starting from 1 kg before proceeding to large-scale shipments.",
+      "We are committed to clear, responsive communication and transparent documentation throughout the entire export process.",
   },
 ];
 
@@ -42,7 +42,7 @@ export default function WhyUsPreview() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col gap-12">
         <SectionHeading
           title="Why Choose Zanetuno"
-          subtitle="We make it easy for global buyers to source premium Indonesian seafood with confidence."
+          subtitle="We make it easy for global buyers to source high-grade Indonesian seafood with confidence."
           divider
         />
 

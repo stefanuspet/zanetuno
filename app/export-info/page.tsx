@@ -6,11 +6,11 @@ import CTABanner from "@/components/shared/CTABanner";
 export const metadata: Metadata = {
   title: "Export Information | Zanetuno",
   description:
-    "Countries served, shipping modes, MOQ, and export documentation. Everything you need to know about importing premium Indonesian seafood from Zanetuno.",
+    "Countries served, shipping modes, and export documentation. Everything you need to know about importing high-grade Indonesian seafood from Zanetuno.",
   openGraph: {
     title: "Export Information | Zanetuno",
     description:
-      "Countries served, shipping modes, MOQ, and export documentation from Zanetuno.",
+      "Countries served, shipping modes, and export documentation from Zanetuno.",
     url: "https://zanetuno.com/export-info",
     images: [{ url: "https://zanetuno.com/og-image.jpg" }],
     type: "website",
@@ -49,7 +49,7 @@ export default function ExportInfoPage() {
       </section>
 
       {/* Countries Served */}
-      <section className="bg-offwhite py-16 md:py-20">
+      {/* <section className="bg-offwhite py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col gap-10">
           <SectionHeading
             title="Countries We Serve"
@@ -62,13 +62,17 @@ export default function ExportInfoPage() {
                 key={country.name}
                 className="flex flex-col items-center gap-3 p-6 bg-white rounded-xl border border-gray-100 shadow-sm"
               >
-                <span className="text-4xl" aria-hidden="true">{country.flag}</span>
-                <span className="text-sm font-semibold text-navy">{country.name}</span>
+                <span className="text-4xl" aria-hidden="true">
+                  {country.flag}
+                </span>
+                <span className="text-sm font-semibold text-navy">
+                  {country.name}
+                </span>
               </div>
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Shipping Modes */}
       <section className="bg-white py-16 md:py-20">
@@ -97,11 +101,11 @@ export default function ExportInfoPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
-                  Sample orders from 1 kg
+                  Transit time: 24-72 hours depending on destination
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
-                  Fast delivery, 24–72 hours
+                  Available from major Indonesian airports: CGK UPG, MDC
                 </li>
               </ul>
             </div>
@@ -124,11 +128,21 @@ export default function ExportInfoPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
-                  Bulk orders, volume negotiable
+                  FCL (Full Container Load) and LCL (Less than Container Load)
+                  available
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
                   Cost-efficient for large shipments
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  20ft and 40ft reefer containers
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  Shipping from major Indonesian ports: Tanjung Priok (Jakarta),
+                  Makassar, Surabaya
                 </li>
               </ul>
             </div>
@@ -137,7 +151,7 @@ export default function ExportInfoPage() {
       </section>
 
       {/* MOQ */}
-      <section className="bg-navy py-16 md:py-20">
+      {/* <section className="bg-navy py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col gap-8">
           <SectionHeading
             title="Minimum Order Quantity"
@@ -151,9 +165,14 @@ export default function ExportInfoPage() {
                 <Plane className="w-6 h-6 text-teal" aria-hidden="true" />
               </div>
               <div className="flex flex-col gap-1">
-                <p className="text-xs font-semibold uppercase tracking-wider text-white/40">Sample Order</p>
+                <p className="text-xs font-semibold uppercase tracking-wider text-white/40">
+                  Sample Order
+                </p>
                 <p className="text-2xl font-bold text-gold">1 kg</p>
-                <p className="text-sm text-white/60">Via Air Freight — for quality evaluation before bulk commitment</p>
+                <p className="text-sm text-white/60">
+                  Via Air Freight — for quality evaluation before bulk
+                  commitment
+                </p>
               </div>
             </div>
             <div className="flex gap-5 p-6 bg-white/5 border border-white/10 rounded-xl">
@@ -161,14 +180,18 @@ export default function ExportInfoPage() {
                 <Package className="w-6 h-6 text-teal" aria-hidden="true" />
               </div>
               <div className="flex flex-col gap-1">
-                <p className="text-xs font-semibold uppercase tracking-wider text-white/40">Bulk Order</p>
+                <p className="text-xs font-semibold uppercase tracking-wider text-white/40">
+                  Bulk Order
+                </p>
                 <p className="text-2xl font-bold text-gold">Negotiable</p>
-                <p className="text-sm text-white/60">Via Sea Freight — volume and pricing discussed upon inquiry</p>
+                <p className="text-sm text-white/60">
+                  Via Sea Freight — volume and pricing discussed upon inquiry
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Export Documents */}
       <section className="bg-offwhite py-16 md:py-20">
@@ -184,7 +207,10 @@ export default function ExportInfoPage() {
                 key={doc}
                 className="flex items-center gap-3 p-4 bg-white rounded-lg border border-gray-100 shadow-sm"
               >
-                <FileCheck className="w-5 h-5 text-teal shrink-0" aria-hidden="true" />
+                <FileCheck
+                  className="w-5 h-5 text-teal shrink-0"
+                  aria-hidden="true"
+                />
                 <span className="text-sm font-medium text-charcoal">{doc}</span>
               </div>
             ))}

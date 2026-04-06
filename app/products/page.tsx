@@ -7,11 +7,11 @@ import CTABanner from "@/components/shared/CTABanner";
 export const metadata: Metadata = {
   title: "Our Products | Zanetuno",
   description:
-    "Browse our premium seafood catalogue: Bluefin Tuna, Skipjack Tuna, and Premium Shrimps. Export-grade quality from Indonesia.",
+    "Browse our high-grade seafood catalogue: Bluefin Tuna, Skipjack Tuna, and High-grade Shrimps. Export-grade quality from Indonesia.",
   openGraph: {
     title: "Our Products | Zanetuno",
     description:
-      "Browse our premium seafood catalogue: Bluefin Tuna, Skipjack Tuna, and Premium Shrimps. Export-grade quality from Indonesia.",
+      "Browse our high-grade seafood catalogue: Bluefin Tuna, Skipjack Tuna, and High-grade Shrimps. Export-grade quality from Indonesia.",
     url: "https://zanetuno.com/products",
     images: [{ url: "https://zanetuno.com/og-image.jpg" }],
     type: "website",
@@ -26,12 +26,13 @@ export default function ProductsPage() {
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <SectionHeading
             title="Our Product Catalogue"
-            subtitle="Premium Indonesian seafood, sourced responsibly and exported with care to global markets."
+            subtitle="High-grade Indonesian seafood, sourced responsibly and exported with care to global markets."
             divider
             theme="dark"
           />
           <p className="mt-6 text-center text-sm text-white/50">
-            All prices are available upon request — contact us for a tailored quotation.
+            All prices are available upon request — contact us for a tailored
+            quotation.
           </p>
         </div>
       </section>
