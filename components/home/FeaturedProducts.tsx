@@ -38,11 +38,13 @@ export default function FeaturedProducts() {
               <div className="flex flex-col gap-3 p-5 flex-1">
                 <div className="flex flex-wrap gap-1.5">
                   {product.variants.map((variant) => (
-                    <Badge key={variant} label={variant} variant="teal" />
+                    <Badge key={variant} label={variant} variant="blue" />
                   ))}
                 </div>
                 <h3 className="text-lg font-bold text-navy">{product.name}</h3>
-                <p className="text-sm text-charcoal/60">Origin: {product.origin}</p>
+                <p className="text-sm text-charcoal/60">
+                  Origin: {product.origin}
+                </p>
                 <p className="text-sm text-charcoal/70 leading-relaxed flex-1">
                   {product.description}
                 </p>

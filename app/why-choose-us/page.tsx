@@ -82,9 +82,9 @@ export default function WhyChooseUsPage() {
                 className="flex gap-5 p-6 bg-white rounded-xl border border-gray-100 shadow-sm"
               >
                 <div className="shrink-0 flex items-start pt-1">
-                  <div className="w-12 h-12 rounded-lg bg-teal-light flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-lg bg-blue-light flex items-center justify-center">
                     <usp.icon
-                      className="w-6 h-6 text-teal"
+                      className="w-6 h-6 text-blue"
                       aria-hidden="true"
                     />
                   </div>
@@ -101,7 +101,7 @@ export default function WhyChooseUsPage() {
             ))}
 
             {/* Sample Order Callout */}
-            {/* <div className="flex gap-5 p-6 bg-teal rounded-xl md:col-span-2">
+            {/* <div className="flex gap-5 p-6 bg-blue rounded-xl md:col-span-2">
               <div className="flex flex-col gap-2">
                 <p className="text-white/70 text-xs font-semibold uppercase tracking-wider">
                   Start Small, Think Big

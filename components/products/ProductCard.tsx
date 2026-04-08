@@ -42,7 +42,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           </p>
           <div className="flex flex-wrap gap-1.5">
             {product.variants.map((variant) => (
-              <Badge key={variant} label={variant} variant="teal" />
+              <Badge key={variant} label={variant} variant="blue" />
             ))}
           </div>
         </div>

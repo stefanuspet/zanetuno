@@ -52,7 +52,7 @@ export default function WhyUsPreview() {
               key={usp.headline}
               className="flex flex-col gap-3 p-6 rounded-xl border border-gray-100 bg-offwhite"
             >
-              <usp.icon className="w-8 h-8 text-teal" aria-hidden="true" />
+              <usp.icon className="w-8 h-8 text-blue" aria-hidden="true" />
               <h3 className="text-base font-bold text-navy">{usp.headline}</h3>
               <p className="text-sm text-charcoal/70 leading-relaxed">
                 {usp.description}
@@ -64,7 +64,7 @@ export default function WhyUsPreview() {
         <div className="flex justify-center">
           <Link
             href="/why-choose-us"
-            className="inline-flex items-center px-6 py-3 border-2 border-teal text-teal font-semibold rounded-md hover:bg-teal hover:text-white transition-colors duration-200"
+            className="inline-flex items-center px-6 py-3 border-2 border-blue text-blue font-semibold rounded-md hover:bg-blue hover:text-white transition-colors duration-200"
           >
             Learn More
           </Link>

@@ -7,8 +7,8 @@
   /* Brand colors */
   --color-navy: #0a1628;
   --color-navy-light: #1b2d4a;
-  --color-teal: #0065B3;
-  --color-teal-light: #e1eaf5;
+  --color-blue: #0065b3;
+  --color-blue-light: #e1eaf5;
   --color-gold: #c9a84c;
   --color-gold-light: #fff3cd;
   --color-offwhite: #f8f6f1;
@@ -22,8 +22,8 @@
   /* Expose brand colors ke Tailwind utilities */
   --color-navy: var(--color-navy);
   --color-navy-light: var(--color-navy-light);
-  --color-teal: var(--color-teal);
-  --color-teal-light: var(--color-teal-light);
+  --color-blue: var(--color-blue);
+  --color-blue-light: var(--color-blue-light);
   --color-gold: var(--color-gold);
   --color-gold-light: var(--color-gold-light);
   --color-offwhite: var(--color-offwhite);

@@ -23,7 +23,7 @@ export default function Footer() {
                 alt="Zanetuno Logo"
                 width={120}
                 height={36}
-                className="h-9 w-auto"
+                className="h-9 w-auto brightness-0 invert"
               />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed">

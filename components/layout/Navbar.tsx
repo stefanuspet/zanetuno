@@ -26,7 +26,7 @@ export default function Navbar() {
             alt="Zanetuno Logo"
             width={120}
             height={36}
-            className="h-9 w-auto"
+            className="h-9 w-auto brightness-0 invert"
             priority
           />
         </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
         <div className="hidden lg:block">
           <Link
             href="/contact"
-            className="inline-flex items-center px-5 py-2 bg-teal text-white text-sm font-medium rounded-md hover:bg-teal/90 transition-colors duration-200"
+            className="inline-flex items-center px-5 py-2 bg-blue text-white text-sm font-medium rounded-md hover:bg-teal/90 transition-colors duration-200"
           >
             Request Quote
           </Link>
@@ -64,19 +64,19 @@ export default function Navbar() {
           <span
             className={cn(
               "block w-6 h-0.5 bg-white transition-transform duration-200",
-              isOpen && "translate-y-2 rotate-45"
+              isOpen && "translate-y-2 rotate-45",
             )}
           />
           <span
             className={cn(
               "block w-6 h-0.5 bg-white transition-opacity duration-200",
-              isOpen && "opacity-0"
+              isOpen && "opacity-0",
             )}
           />
           <span
             className={cn(
               "block w-6 h-0.5 bg-white transition-transform duration-200",
-              isOpen && "-translate-y-2 -rotate-45"
+              isOpen && "-translate-y-2 -rotate-45",
             )}
           />
         </button>

@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/hero/hero-bg.png"
+        src="/images/hero/hero.jpg"
         alt="High-grade Indonesian seafood from the ocean"
         fill
         priority
@@ -33,7 +33,7 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-3 mt-2">
           <Link
             href="/products"
-            className="inline-flex items-center justify-center px-7 py-3 bg-teal text-white font-semibold rounded-md hover:bg-teal/90 transition-colors duration-200"
+            className="inline-flex items-center justify-center px-7 py-3 bg-blue text-white font-semibold rounded-md hover:bg-blue/90 transition-colors duration-200"
           >
             View Products
           </Link>

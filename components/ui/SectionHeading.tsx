@@ -21,15 +21,17 @@ export default function SectionHeading({
     <div
       className={cn(
         "flex flex-col gap-3",
-        align === "center" ? "items-center text-center" : "items-start text-left",
-        className
+        align === "center"
+          ? "items-center text-center"
+          : "items-start text-left",
+        className,
       )}
     >
-      {divider && <span className="block w-12 h-1 bg-teal rounded-full" />}
+      {divider && <span className="block w-12 h-1 bg-blue rounded-full" />}
       <h2
         className={cn(
           "text-3xl md:text-4xl font-bold",
-          theme === "dark" ? "text-white" : "text-navy"
+          theme === "dark" ? "text-white" : "text-navy",
         )}
       >
         {title}
@@ -38,7 +40,7 @@ export default function SectionHeading({
         <p
           className={cn(
             "text-base md:text-lg max-w-2xl",
-            theme === "dark" ? "text-white/70" : "text-charcoal/70"
+            theme === "dark" ? "text-white/70" : "text-charcoal/70",
           )}
         >
           {subtitle}

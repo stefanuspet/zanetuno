@@ -29,7 +29,7 @@ const productOptions = [
 ];
 
 const inputClass =
-  "w-full px-4 py-2.5 rounded-md border border-gray-200 bg-white text-charcoal text-sm placeholder:text-charcoal/40 focus:outline-none focus:ring-2 focus:ring-teal/40 focus:border-teal transition-colors duration-200";
+  "w-full px-4 py-2.5 rounded-md border border-gray-200 bg-white text-charcoal text-sm placeholder:text-charcoal/40 focus:outline-none focus:ring-2 focus:ring-blue/40 focus:border-blue transition-colors duration-200";
 
 const labelClass = "block text-sm font-medium text-charcoal mb-1.5";
 
@@ -70,9 +70,9 @@ export default function InquiryForm() {
   if (formState === "success") {
     return (
       <div className="flex flex-col items-center justify-center gap-4 py-16 text-center">
-        <div className="w-14 h-14 rounded-full bg-teal-light flex items-center justify-center">
+        <div className="w-14 h-14 rounded-full bg-blue-light flex items-center justify-center">
           <svg
-            className="w-7 h-7 text-teal"
+            className="w-7 h-7 text-blue"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

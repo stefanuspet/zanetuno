@@ -85,8 +85,8 @@ export default function ExportInfoPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Air Freight */}
             <div className="flex flex-col gap-4 p-8 bg-offwhite rounded-xl border border-gray-100">
-              <div className="w-12 h-12 rounded-lg bg-teal-light flex items-center justify-center">
-                <Plane className="w-6 h-6 text-teal" aria-hidden="true" />
+              <div className="w-12 h-12 rounded-lg bg-blue-light flex items-center justify-center">
+                <Plane className="w-6 h-6 text-blue" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-bold text-navy">Air Freight</h3>
               <p className="text-charcoal/70 text-sm leading-relaxed">
@@ -96,15 +96,15 @@ export default function ExportInfoPage() {
               </p>
               <ul className="flex flex-col gap-2 text-sm text-charcoal/70">
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue shrink-0" />
                   Fresh (Chilled) products
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue shrink-0" />
                   Transit time: 24-72 hours depending on destination
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue shrink-0" />
                   Available from major Indonesian airports: CGK UPG, MDC
                 </li>
               </ul>
@@ -112,8 +112,8 @@ export default function ExportInfoPage() {
 
             {/* Sea Freight */}
             <div className="flex flex-col gap-4 p-8 bg-offwhite rounded-xl border border-gray-100">
-              <div className="w-12 h-12 rounded-lg bg-teal-light flex items-center justify-center">
-                <Ship className="w-6 h-6 text-teal" aria-hidden="true" />
+              <div className="w-12 h-12 rounded-lg bg-blue-light flex items-center justify-center">
+                <Ship className="w-6 h-6 text-blue" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-bold text-navy">Sea Freight</h3>
               <p className="text-charcoal/70 text-sm leading-relaxed">
@@ -123,24 +123,24 @@ export default function ExportInfoPage() {
               </p>
               <ul className="flex flex-col gap-2 text-sm text-charcoal/70">
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue shrink-0" />
                   Frozen products
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue shrink-0" />
                   FCL (Full Container Load) and LCL (Less than Container Load)
                   available
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue shrink-0" />
                   Cost-efficient for large shipments
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue shrink-0" />
                   20ft and 40ft reefer containers
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue shrink-0" />
                   Shipping from major Indonesian ports: Tanjung Priok (Jakarta),
                   Makassar, Surabaya
                 </li>
@@ -161,8 +161,8 @@ export default function ExportInfoPage() {
           />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex gap-5 p-6 bg-white/5 border border-white/10 rounded-xl">
-              <div className="w-12 h-12 rounded-lg bg-teal/20 flex items-center justify-center shrink-0">
-                <Plane className="w-6 h-6 text-teal" aria-hidden="true" />
+              <div className="w-12 h-12 rounded-lg bg-blue/20 flex items-center justify-center shrink-0">
+                <Plane className="w-6 h-6 text-blue" aria-hidden="true" />
               </div>
               <div className="flex flex-col gap-1">
                 <p className="text-xs font-semibold uppercase tracking-wider text-white/40">
@@ -176,8 +176,8 @@ export default function ExportInfoPage() {
               </div>
             </div>
             <div className="flex gap-5 p-6 bg-white/5 border border-white/10 rounded-xl">
-              <div className="w-12 h-12 rounded-lg bg-teal/20 flex items-center justify-center shrink-0">
-                <Package className="w-6 h-6 text-teal" aria-hidden="true" />
+              <div className="w-12 h-12 rounded-lg bg-blue/20 flex items-center justify-center shrink-0">
+                <Package className="w-6 h-6 text-blue" aria-hidden="true" />
               </div>
               <div className="flex flex-col gap-1">
                 <p className="text-xs font-semibold uppercase tracking-wider text-white/40">
@@ -208,7 +208,7 @@ export default function ExportInfoPage() {
                 className="flex items-center gap-3 p-4 bg-white rounded-lg border border-gray-100 shadow-sm"
               >
                 <FileCheck
-                  className="w-5 h-5 text-teal shrink-0"
+                  className="w-5 h-5 text-blue shrink-0"
                   aria-hidden="true"
                 />
                 <span className="text-sm font-medium text-charcoal">{doc}</span>

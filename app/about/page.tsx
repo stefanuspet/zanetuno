@@ -37,13 +37,13 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex flex-col gap-6">
-              <p className="text-teal text-sm font-semibold uppercase tracking-wider">
+              <p className="text-blue text-sm font-semibold uppercase tracking-wider">
                 Our Story
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-navy leading-tight">
                 The Zanetuno Story
               </h2>
-              <p className="text-base text-teal font-semibold">
+              <p className="text-base text-blue font-semibold">
                 Bridging Indonesia&apos;s Marine Excellence to the Global Market
               </p>
               <div className="flex flex-col gap-4 text-charcoal/70 leading-relaxed">
@@ -71,7 +71,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-80 lg:h-96 w-full rounded-xl overflow-hidden bg-gray-200">
               <Image
-                src="/images/hero/hero-bg.png"
+                src="/images/hero/hero.jpg"
                 alt="Zanetuno cold storage facility in Jakarta"
                 fill
                 className="object-cover"
@@ -84,7 +84,7 @@ export default function AboutPage() {
       {/* Vision Statement */}
       <section className="bg-navy py-16 md:py-20">
         <div className="max-w-4xl mx-auto px-4 md:px-8 text-center flex flex-col items-center gap-6">
-          <span className="block w-12 h-1 bg-teal rounded-full" />
+          <span className="block w-12 h-1 bg-blue rounded-full" />
           <p className="text-white/50 text-sm font-semibold uppercase tracking-wider">
             Our Vision
           </p>
@@ -100,7 +100,7 @@ export default function AboutPage() {
       <section className="bg-offwhite py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="text-center mb-12">
-            <p className="text-teal text-sm font-semibold uppercase tracking-wider mb-2">
+            <p className="text-blue text-sm font-semibold uppercase tracking-wider mb-2">
               Our Mission
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-2">
@@ -150,7 +150,7 @@ export default function AboutPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="text-center mb-12">
-            <p className="text-teal text-sm font-semibold uppercase tracking-wider mb-2">
+            <p className="text-blue text-sm font-semibold uppercase tracking-wider mb-2">
               Sourcing & Coverage Area
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-2">
@@ -193,7 +193,7 @@ export default function AboutPage() {
       <section className="bg-navy py-16 md:py-24 text-justify">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="text-center mb-12">
-            <p className="text-teal text-sm font-semibold uppercase tracking-wider mb-2">
+            <p className="text-blue text-sm font-semibold uppercase tracking-wider mb-2">
               Corporate Governance
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">

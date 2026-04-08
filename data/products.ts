@@ -15,7 +15,7 @@ export const products: Product[] = [
       "Vacuum sealed, blast frozen, packed in master carton, shipped via reefer container",
     description:
       "Sourced from the deep, pristine waters of Eastern Indonesia. Our Bluefin Tuna is prized for its rich color, buttery texture, and high fat content.",
-    image: "/images/products/bluefin-tuna.png",
+    image: "/images/products/bluefin-tuna2.jpg",
   },
   {
     id: "2",

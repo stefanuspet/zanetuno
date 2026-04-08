@@ -53,9 +53,9 @@ export default function ContactPage() {
 
                 {/* WhatsApp */}
                 <div className="flex gap-4 items-start">
-                  <div className="w-10 h-10 rounded-lg bg-teal-light flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-lg bg-blue-light flex items-center justify-center shrink-0">
                     <MessageCircle
-                      className="w-5 h-5 text-teal"
+                      className="w-5 h-5 text-blue"
                       aria-hidden="true"
                     />
                   </div>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                       href="https://wa.me/628131363352"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm font-medium text-navy hover:text-teal transition-colors duration-200"
+                      className="text-sm font-medium text-navy hover:text-blue transition-colors duration-200"
                     >
                       +62 813-1363-352
                     </a>
@@ -76,8 +76,8 @@ export default function ContactPage() {
 
                 {/* Email */}
                 <div className="flex gap-4 items-start">
-                  <div className="w-10 h-10 rounded-lg bg-teal-light flex items-center justify-center shrink-0">
-                    <Mail className="w-5 h-5 text-teal" aria-hidden="true" />
+                  <div className="w-10 h-10 rounded-lg bg-blue-light flex items-center justify-center shrink-0">
+                    <Mail className="w-5 h-5 text-blue" aria-hidden="true" />
                   </div>
                   <div className="flex flex-col gap-0.5">
                     <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/40">
@@ -85,7 +85,7 @@ export default function ContactPage() {
                     </p>
                     <a
                       href="mailto:info@zanetuno.com"
-                      className="text-sm font-medium text-navy hover:text-teal transition-colors duration-200"
+                      className="text-sm font-medium text-navy hover:text-blue transition-colors duration-200"
                     >
                       info@zanetuno.com
                     </a>
@@ -94,8 +94,8 @@ export default function ContactPage() {
 
                 {/* Address */}
                 <div className="flex gap-4 items-start">
-                  <div className="w-10 h-10 rounded-lg bg-teal-light flex items-center justify-center shrink-0">
-                    <MapPin className="w-5 h-5 text-teal" aria-hidden="true" />
+                  <div className="w-10 h-10 rounded-lg bg-blue-light flex items-center justify-center shrink-0">
+                    <MapPin className="w-5 h-5 text-blue" aria-hidden="true" />
                   </div>
                   <div className="flex flex-col gap-0.5">
                     <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/40">
@@ -113,8 +113,8 @@ export default function ContactPage() {
               </div>
 
               {/* Response time note */}
-              <div className="bg-teal-light border border-teal/20 rounded-xl p-5">
-                <p className="text-sm font-semibold text-teal mb-1">
+              <div className="bg-blue-light border border-blue/20 rounded-xl p-5">
+                <p className="text-sm font-semibold text-blue mb-1">
                   Response Time
                 </p>
                 <p className="text-sm text-charcoal/70 leading-relaxed">
