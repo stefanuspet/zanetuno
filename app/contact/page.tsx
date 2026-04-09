@@ -84,10 +84,10 @@ export default function ContactPage() {
                       Email
                     </p>
                     <a
-                      href="mailto:info@zanetuno.com"
+                      href="mailto:rehatta.linda@zanetuno.com"
                       className="text-sm font-medium text-navy hover:text-blue transition-colors duration-200"
                     >
-                      info@zanetuno.com
+                      rehatta.linda@zanetuno.com
                     </a>
                   </div>
                 </div>
@@ -102,11 +102,7 @@ export default function ContactPage() {
                       Office Address
                     </p>
                     <address className="text-sm text-charcoal/70 not-italic leading-relaxed">
-                      Jl. Pangkalan Jati V no.24, Rt.11/Rw.05,
-                      <br />
-                      Cipinang Melayu, Jatiwaringin,
-                      <br />
-                      Jakarta Timur, Indonesia 13620
+                      Jatiwaringin, Jakarta Timur 13620
                     </address>
                   </div>
                 </div>

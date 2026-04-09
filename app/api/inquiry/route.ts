@@ -44,7 +44,7 @@ export async function POST(request: Request) {
 
     await resend.emails.send({
       from: "Zanetuno Inquiry <onboarding@resend.dev>",
-      to: "info@zanetuno.com",
+      to: "rehatta.linda@zanetuno.com",
       subject: `New Inquiry from ${fullName}${companyName ? ` — ${companyName}` : ""}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #2c2c2c;">

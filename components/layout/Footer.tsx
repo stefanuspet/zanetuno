@@ -60,10 +60,10 @@ export default function Footer() {
             <ul className="flex flex-col gap-3 text-sm text-white/70">
               <li>
                 <a
-                  href="mailto:info@zanetuno.com"
+                  href="mailto:rehatta.linda@zanetuno.com"
                   className="hover:text-white transition-colors duration-200"
                 >
-                  info@zanetuno.com
+                  rehatta.linda@zanetuno.com
                 </a>
               </li>
               <li>
@@ -77,11 +77,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="leading-relaxed">
-                Jl. Pangkalan Jati V no.24, Rt.11/Rw.05,
-                <br />
-                Cipinang Melayu, Jatiwaringin,
-                <br />
-                Jakarta Timur, Indonesia 13620
+                Jatiwaringin, Jakarta Timur 13620
               </li>
             </ul>
 
