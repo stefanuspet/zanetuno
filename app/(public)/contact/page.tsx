@@ -4,16 +4,15 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import InquiryForm from "@/components/contact/InquiryForm";
 
 export const metadata: Metadata = {
-  title: "Contact & Inquiry | Zanetuno",
+  title: "Contact & Inquiry",
   description:
     "Request a quote or send an inquiry to our export team. We respond within 24–48 hours.",
+  alternates: { canonical: "/contact" },
   openGraph: {
     title: "Contact & Inquiry | Zanetuno",
     description:
       "Request a quote or send an inquiry to our export team. We respond within 24–48 hours.",
-    url: "https://zanetuno.com/contact",
-    images: [{ url: "https://zanetuno.com/og-image.jpg" }],
-    type: "website",
+    url: "/contact",
   },
 };
 

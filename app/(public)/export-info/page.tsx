@@ -4,16 +4,15 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import CTABanner from "@/components/shared/CTABanner";
 
 export const metadata: Metadata = {
-  title: "Export Information | Zanetuno",
+  title: "Export Information",
   description:
     "Countries served, shipping modes, and export documentation. Everything you need to know about importing high-grade Indonesian seafood from Zanetuno.",
+  alternates: { canonical: "/export-info" },
   openGraph: {
     title: "Export Information | Zanetuno",
     description:
       "Countries served, shipping modes, and export documentation from Zanetuno.",
-    url: "https://zanetuno.com/export-info",
-    images: [{ url: "https://zanetuno.com/og-image.jpg" }],
-    type: "website",
+    url: "/export-info",
   },
 };
 

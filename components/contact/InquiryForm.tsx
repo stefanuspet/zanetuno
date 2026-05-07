@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 
 const InquirySchema = z.object({
   fullName: z.string().min(2, "Full name is required"),
+  email: z.string().email("Please enter a valid email address"),
   companyName: z.string().optional(),
   country: z.string().min(1, "Country is required"),
   productInterest: z.string().min(1, "Please select a product"),
@@ -126,6 +127,26 @@ export default function InquiryForm() {
         />
         {errors.fullName && (
           <p className={errorClass}>{errors.fullName.message}</p>
+        )}
+      </div>
+
+      {/* Email */}
+      <div>
+        <label htmlFor="email" className={labelClass}>
+          Email Address <span className="text-red-500">*</span>
+        </label>
+        <input
+          id="email"
+          type="email"
+          placeholder="you@company.com"
+          className={cn(
+            inputClass,
+            errors.email && "border-red-400 focus:ring-red-200",
+          )}
+          {...register("email")}
+        />
+        {errors.email && (
+          <p className={errorClass}>{errors.email.message}</p>
         )}
       </div>
 

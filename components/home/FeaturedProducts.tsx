@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { products } from "@/data/products";
+import { getProducts } from "@/lib/products";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Badge from "@/components/ui/Badge";
 
-const featuredSlugs = ["bluefin-tuna", "skipjack-tuna", "premium-shrimps"];
-
-export default function FeaturedProducts() {
-  const featured = products.filter((p) => featuredSlugs.includes(p.slug));
+export default async function FeaturedProducts() {
+  const all = await getProducts();
+  const featured = all.slice(0, 3);
 
   return (
     <section className="bg-offwhite py-16 md:py-24">
@@ -26,12 +25,18 @@ export default function FeaturedProducts() {
             >
               {/* Product Image */}
               <div className="relative h-52 w-full bg-gray-100">
-                <Image
-                  src={product.image}
-                  alt={`${product.name} sourced from ${product.origin}, Indonesia`}
-                  fill
-                  className="object-cover"
-                />
+                {product.image_url ? (
+                  <Image
+                    src={product.image_url}
+                    alt={`${product.name} sourced from ${product.origin}, Indonesia`}
+                    fill
+                    className="object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-gray-300 text-sm">
+                    No image
+                  </div>
+                )}
               </div>
 
               {/* Content */}

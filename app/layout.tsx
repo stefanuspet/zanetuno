@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
-import WhatsAppButton from "@/components/layout/WhatsAppButton";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -12,9 +9,22 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Zanetuno | High-grade Indonesian Seafood Exporter",
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_BASE_URL ?? "https://zanetuno.com"
+  ),
+  title: {
+    template: "%s | Zanetuno",
+    default: "Zanetuno — High-grade Indonesian Seafood Exporter",
+  },
   description:
     "Export-grade tuna, shrimp, and seafood from Indonesia to global markets.",
+  openGraph: {
+    siteName: "Zanetuno",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
@@ -24,12 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${jakarta.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <WhatsAppButton />
-      </body>
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>{children}</body>
     </html>
   );
 }

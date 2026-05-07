@@ -1,0 +1,23 @@
+# Zanetuno
+
+> Zanetuno is an Indonesian seafood export company supplying high-grade tuna, shrimp, and other seafood to importers worldwide. Products are sourced from certified fishing and aquaculture areas across Indonesia and processed to international export standards (HACCP, BRC).
+
+## Pages
+
+- [Home](https://zanetuno.com/): Overview of Zanetuno, featured products, and company highlights.
+- [Products](https://zanetuno.com/products): Full product catalogue including Bluefin Tuna, Skipjack Tuna (Cakalang), High-grade Shrimps, and additional seafood available on request. Details include origin, variants, forms, grading, and packaging specifications.
+- [About](https://zanetuno.com/about): Company background, mission, and commitment to quality and sustainability.
+- [Why Choose Us](https://zanetuno.com/why-choose-us): Key differentiators — traceability, export compliance, cold chain management, and direct supplier relationships.
+- [Export Info](https://zanetuno.com/export-info): Export documentation, certifications, shipping methods (air freight and reefer container), and compliance information.
+- [Contact](https://zanetuno.com/contact): Inquiry form and WhatsApp contact for pricing, sourcing, and export quotations.
+
+## Products
+
+- **High-grade Bluefin Tuna** — Origin: Laut Banda / Selat Makassar / NTB / NTT. Variants: Fresh (Chilled), Frozen. Forms: Whole, Loin, Saku (Block Cut).
+- **Skipjack Tuna (Cakalang)** — Origin: Maluku / Papua / Sulawesi. Variants: Fresh (Chilled), Frozen. Forms: Whole, Loin, Saku (Block Cut). Grading: Premium Grade, Standard Grade.
+- **High-grade Shrimps** — Origin: Lampung / East Java / South Sulawesi. Variants: Frozen. Forms: HOSO, HLSO, PTO, PUD. Grading by count: 16/20 to 51/60.
+- **Additional Seafood (By Request)** — Marine fish (Tongkol, Tilapia, Anchovy), crustaceans (Crab, Lobster), and other Indonesian species. Availability subject to season.
+
+## Contact
+
+For sourcing inquiries, pricing, and export quotations, contact via the website contact form or WhatsApp.

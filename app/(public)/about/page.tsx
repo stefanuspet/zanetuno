@@ -4,16 +4,15 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import CTABanner from "@/components/shared/CTABanner";
 
 export const metadata: Metadata = {
-  title: "About Us | Zanetuno",
+  title: "About Us",
   description:
     "Learn about PT. Kalwaneira Terra Prospera and our commitment to delivering high-grade Indonesian seafood to global markets.",
+  alternates: { canonical: "/about" },
   openGraph: {
     title: "About Us | Zanetuno",
     description:
       "Learn about PT. Kalwaneira Terra Prospera and our commitment to delivering high-grade Indonesian seafood to global markets.",
-    url: "https://zanetuno.com/about",
-    images: [{ url: "https://zanetuno.com/og-image.jpg" }],
-    type: "website",
+    url: "/about",
   },
 };
 

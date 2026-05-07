@@ -5,16 +5,15 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import CTABanner from "@/components/shared/CTABanner";
 
 export const metadata: Metadata = {
-  title: "Why Choose Us | Zanetuno",
+  title: "Why Choose Us",
   description:
     "High-grade quality, flexible shipping, and responsible sourcing. Discover why global buyers choose Zanetuno as their Indonesian seafood partner.",
+  alternates: { canonical: "/why-choose-us" },
   openGraph: {
     title: "Why Choose Us | Zanetuno",
     description:
       "High-grade quality, flexible shipping, and responsible sourcing. Discover why global buyers choose Zanetuno.",
-    url: "https://zanetuno.com/why-choose-us",
-    images: [{ url: "https://zanetuno.com/og-image.jpg" }],
-    type: "website",
+    url: "/why-choose-us",
   },
 };
 

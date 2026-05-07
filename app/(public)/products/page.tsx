@@ -1,24 +1,25 @@
 import type { Metadata } from "next";
-import { products } from "@/data/products";
+import { getProducts } from "@/lib/products";
 import ProductCard from "@/components/products/ProductCard";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CTABanner from "@/components/shared/CTABanner";
 
 export const metadata: Metadata = {
-  title: "Our Products | Zanetuno",
+  title: "Our Products",
   description:
     "Browse our high-grade seafood catalogue: Bluefin Tuna, Skipjack Tuna, and High-grade Shrimps. Export-grade quality from Indonesia.",
+  alternates: { canonical: "/products" },
   openGraph: {
     title: "Our Products | Zanetuno",
     description:
       "Browse our high-grade seafood catalogue: Bluefin Tuna, Skipjack Tuna, and High-grade Shrimps. Export-grade quality from Indonesia.",
-    url: "https://zanetuno.com/products",
-    images: [{ url: "https://zanetuno.com/og-image.jpg" }],
-    type: "website",
+    url: "/products",
   },
 };
 
-export default function ProductsPage() {
+export default async function ProductsPage() {
+  const products = await getProducts();
+
   return (
     <>
       {/* Header */}
