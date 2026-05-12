@@ -10,7 +10,7 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_BASE_URL ?? "https://zanetuno.com"
+    process.env.NEXT_PUBLIC_BASE_URL ?? "https://zanetuno.com",
   ),
   title: {
     template: "%s | Zanetuno",
@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  verification: {
+    google: "DbWdL3VLOywAsMb-3Ugfp8W1MQIysv72g-RAV0N4dsc",
+  },
 };
 
 export default function RootLayout({
@@ -34,7 +37,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${jakarta.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col" suppressHydrationWarning>{children}</body>
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }
