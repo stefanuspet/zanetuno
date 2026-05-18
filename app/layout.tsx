@@ -10,7 +10,7 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_BASE_URL ?? "https://zanetuno.com",
+    process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.zanetuno.com",
   ),
   title: {
     template: "%s | Zanetuno",

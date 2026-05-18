@@ -6,4 +6,4 @@
 
 ## Live Website
 
-https://zanetuno.com
+https://www.zanetuno.com

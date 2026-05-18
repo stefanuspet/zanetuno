@@ -4,12 +4,12 @@
 
 ## Pages
 
-- [Home](https://zanetuno.com/): Overview of Zanetuno, featured products, and company highlights.
-- [Products](https://zanetuno.com/products): Full product catalogue including Bluefin Tuna, Skipjack Tuna (Cakalang), High-grade Shrimps, and additional seafood available on request. Details include origin, variants, forms, grading, and packaging specifications.
-- [About](https://zanetuno.com/about): Company background, mission, and commitment to quality and sustainability.
-- [Why Choose Us](https://zanetuno.com/why-choose-us): Key differentiators — traceability, export compliance, cold chain management, and direct supplier relationships.
-- [Export Info](https://zanetuno.com/export-info): Export documentation, certifications, shipping methods (air freight and reefer container), and compliance information.
-- [Contact](https://zanetuno.com/contact): Inquiry form and WhatsApp contact for pricing, sourcing, and export quotations.
+- [Home](https://www.zanetuno.com/): Overview of Zanetuno, featured products, and company highlights.
+- [Products](https://www.zanetuno.com/products): Full product catalogue including Bluefin Tuna, Skipjack Tuna (Cakalang), High-grade Shrimps, and additional seafood available on request. Details include origin, variants, forms, grading, and packaging specifications.
+- [About](https://www.zanetuno.com/about): Company background, mission, and commitment to quality and sustainability.
+- [Why Choose Us](https://www.zanetuno.com/why-choose-us): Key differentiators — traceability, export compliance, cold chain management, and direct supplier relationships.
+- [Export Info](https://www.zanetuno.com/export-info): Export documentation, certifications, shipping methods (air freight and reefer container), and compliance information.
+- [Contact](https://www.zanetuno.com/contact): Inquiry form and WhatsApp contact for pricing, sourcing, and export quotations.
 
 ## Products
 

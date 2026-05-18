@@ -7,8 +7,8 @@ const jsonLd = {
   "@type": "Organization",
   name: "Zanetuno",
   legalName: "PT. Kalwaneira Terra Prospera",
-  url: "https://zanetuno.com",
-  logo: "https://zanetuno.com/images/logo.png",
+  url: "https://www.zanetuno.com",
+  logo: "https://www.zanetuno.com/images/logo.png",
   description:
     "High-grade Indonesian seafood exporter supplying Bluefin Tuna, Skipjack Tuna, and Shrimps to global importers.",
   address: {
